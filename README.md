@@ -4,6 +4,8 @@ This repository contains the codes used for generating the data contained in the
 
 <p align="center">
 
+[Figure.pdf](https://github.com/zakisaati/Unraveling-new-bacterial-functions-in-the-plant-rhizoplane/files/9943324/Figure.pdf)
+
 
 ---
 ## Guide
