@@ -6,9 +6,29 @@ NOTE: we just include those that requires command-line usage, not those annotati
 
 ## CAZys
 
-The search for [CAZys](http://www.cazy.org/) (Carbohydrate Active EnzYmes) was done through the 
+The search for [CAZys](http://www.cazy.org/) (Carbohydrate Active EnzYmes) was done through the [run_dbcan.py](https://github.com/linnabrown/run_dbcan) command, which is a standalone tool for [dbCAN2](https://bcb.unl.edu/dbCAN2/).
+
+The input for this analysis consisted on the encoded proteome (fasta amino acid file).
+
+~~~
+$ run_dbcan.py representative_gene_families.faa protein --out_dir output_dbcan_representative_gene_families --dia_cpu 36 --hmm_cpu 36 --hotpep_cpu 36 --tf_cpu 36 --tf_cpu 36 --db_dir /path/to/db
+~~~
+
+Then, as recoomended by authors for dbCAN2, we just retained those CAZYs that have been annotated through 2 of the 3 search methods. 
+
+~~~
+awk '$5 ~ /[23]/ { print $0 }' overview.txt > CAZYs_2_or_3_tools.txt
+~~~
 
 ## Biosynthetic Gene Clusters (BGCs)
+
+We ran [antiSMASH](https://docs.antismash.secondarymetabolites.org/) (v5.1) to find Biosynthetic Gene Clusters (BGCs) related with the biosynthesis of secondary metabolites.
+
+The RAST annotated genome in *Gene BanK* format was the input for this annotation.
+
+~~~
+antismash --fullhmmer --cb-general --cb-subclusters --cb-knownclusters --asf --pfam2go --genefinding-tool none --output-dir antismash_output CDVBN10_genome.gbk -c 36
+~~~
 
 ## Signal Peptides
 
