@@ -79,7 +79,7 @@ We manually retained just the first (featureID) and the fourth (counts) columns.
 
 We used [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html), in R environment, to find up- or down-regulated genes in the studied conditions. 
 
-The input consisted on the previously obtained rounded count files. It's important to say that these counts should not be normalized. There are many ways to format the input files and to create graphics and more. We just comment here the key steps to find DEGs.
+The input consisted on the previously obtained rounded count files, which can be accessed [here](Source_data/counts_rounded/). It's important to say that these counts should not be normalized. There are many ways to format the input files and to create graphics and more. We just comment here the key steps to find DEGs.
 
 ~~~
 ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable, directory = directory, design= ~ Condition)
