@@ -6,7 +6,7 @@ Here we show the codes used for analyzing RNA-Seq data and search for differenti
 
 The first step needed is to align each sample with quality filtered reads against the bacterial genome. We used [Bowtie2](https://github.com/BenLangmead/bowtie2) for this.
 
-Before performing the alignment, it is needed to create a reference database with the genome:
+Before performing the alignment, it is needed to create a reference database with the [contigs of the genome](Source_data/CDVBN10_contigs.fa)):
 
 ~~~
 $ bowtie2-build Genome_contigs.fa CDVBN10_build/CDVBN10.build
@@ -47,7 +47,7 @@ $ samtools index ::: replicate_sorted.bam
 We will use DESeq2 later for differential expression analysis. This program requires to provide a count of transcripts for each CDS. 
 To create those counts, we ran [FADU](https://github.com/IGS/FADU), a quantification tool designed specifically for prokaryotic RNA-Seq analyses.
 
-The input consisted on the General Feature Formatted (GFF) genome from RAST annotation and the files obtained above.
+The input consisted on the [General Feature Formatted (GFF) genome](Source_data/CDVBN10.gff) from RAST annotation and the files obtained above.
 
 ~~~
 $ mkdir replicate_X_FADU_count/
