@@ -46,7 +46,15 @@ $ samtools index ::: replicate_sorted.bam
 
 We will use DESeq2 later for differential expression analysis. This program requires to provide a count of transcripts for each CDS. 
 To create those counts, we ran [FADU](https://github.com/IGS/FADU), a quantification tool designed specifically for prokaryotic RNA-Seq analyses.
+
+The input consisted on the General Feature Formatted (GFF) genome from RAST annotation and the files obtained above.
+
 ~~~
-$
+$ mkdir replicate_X_FADU_count/
+~~~
+
+~~~
+$ julia fadu.jl -g genome.gff -b "replicate_sorted.bam" -o "replicate_X_FADU_count" -s "yes" -f "CDS"
+~~~
 
 
