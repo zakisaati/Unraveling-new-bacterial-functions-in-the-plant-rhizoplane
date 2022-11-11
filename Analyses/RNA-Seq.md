@@ -57,4 +57,40 @@ $ mkdir replicate_X_FADU_count/
 $ julia fadu.jl -g genome.gff -b "replicate_sorted.bam" -o "replicate_X_FADU_count" -s "yes" -f "CDS"
 ~~~
 
+There will be an ouput file for each sample or replicate. This file would have several columns. Let's see as an example some lines of this output (copied from [here](https://github.com/IGS/FADU))
 
+~~~
+featureID   uniq_len    num_alignments  counts  tpm
+cds0    1017    4.5 2.81    1744.38
+cds1    1194    3.5 2.48    1310.50
+cds10   1161    0.0 0.00    0.00
+cds100  591 0.0 0.00    0.00
+cds1000 741 8.0 7.46    6358.81
+cds1001 850 5.0 4.45    3310.38
+cds1002 829 1.0 0.48    363.86
+cds1003 1167    0.0 0.00    0.00
+cds1004 1164    0.0 0.00    0.00
+cds1005 816 0.0 0.00    0.00
+~~~
+
+We manually retained just the first (featureID) and the fourth (counts) columns. Then, we rounded the counts and create a folder with each of the files with rounded counts.
+
+## Differential Expression Analysis
+
+We used [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html), in R environment, to find up- or down-regulated genes in the studied conditions.
+
+The input consisted on the previously obtained rounded count files. It's important to say that these counts should not be normalized.
+
+~~~
+ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable, directory = directory, design= ~ Condition)
+~~~
+
+~~~
+dds <- DESeq(ddsHTSeq)
+~~~
+~~~
+$ res <- results (dds)
+~~~
+~~~
+$ write.csv(as.data.frame(res), file="/path/to/output_DESeq2.csv")
+~~~
