@@ -11,7 +11,7 @@ This repository contains the codes used for generating the data contained in the
 - The [Analyses](./analyses/) folder contains data and codes needed to compute the bioinformatic analyses.
 
   - To inspect the codes and programs used to annotate genomes or proteomes go to the [genomes_annotation](./analyses/genomes_annotation.md) section. This section details many diverse annotation steps.
- - To inspect the codes and programs used to analyze RNA-Seq data go to the [RNA-Seq](./analyses/RNA-Seq.md) section.
+- To inspect the codes and programs used to analyze RNA-Seq data go to the [RNA-Seq](./analyses/RNA-Seq.md) section.
   - This folder also includes the [Source Data](./analyses/Source_data) needed to run analyses.
 
 - To inspect the codes used for the generation of graphics and figures, go to the [Figures](./Figures/figures.md) section. This folder also includes the [Source Data](./Figures/Source_data) needed to create each graphic.
