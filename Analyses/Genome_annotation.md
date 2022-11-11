@@ -11,13 +11,13 @@ The search for [CAZys](http://www.cazy.org/) (Carbohydrate Active EnzYmes) was d
 The input for this analysis consisted on the encoded proteome (fasta amino acid file).
 
 ~~~
-$ run_dbcan.py representative_gene_families.faa protein --out_dir output_dbcan_representative_gene_families --dia_cpu 36 --hmm_cpu 36 --hotpep_cpu 36 --tf_cpu 36 --tf_cpu 36 --db_dir /path/to/db
+$ run_dbcan.py CDVBN10.faa protein --out_dir CDVBN10_dbcan2 --dia_cpu 36 --hmm_cpu 36 --hotpep_cpu 36 --tf_cpu 36 --tf_cpu 36 --db_dir /path/to/db
 ~~~
 
 Then, as recoomended by authors for dbCAN2, we just retained those CAZYs that have been annotated through 2 of the 3 search methods. 
 
 ~~~
-awk '$5 ~ /[23]/ { print $0 }' overview.txt > CAZYs_2_or_3_tools.txt
+$ awk '$5 ~ /[23]/ { print $0 }' CDVBN10_dbcan2/overview.txt > CAZYs_2_or_3_tools.txt
 ~~~
 
 ## Biosynthetic Gene Clusters (BGCs)
@@ -31,4 +31,13 @@ antismash --fullhmmer --cb-general --cb-subclusters --cb-knownclusters --asf --p
 ~~~
 
 ## Signal Peptides
+
+
+To look for proteins with a signal peptide we used the **SignalP** tool. We downloaded it from: https://services.healthtech.dtu.dk/cgi-bin/sw_request
+
+Again, the input for this analysis consisted on the encoded proteome (fasta amino acid file). The command used was:
+
+~~~
+$ signalp -fasta CDVBN10.faa -org gram- -format short -prefix signalp_output.faa
+~~~
 
