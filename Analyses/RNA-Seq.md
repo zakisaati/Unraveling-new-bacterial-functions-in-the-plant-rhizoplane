@@ -75,7 +75,7 @@ cds1005 816 0.0 0.00    0.00
 
 We manually retained just the first (featureID) and the fourth (counts) columns. Then, we rounded the counts and create a folder with each of the files with rounded counts.
 
-## Differential Expression Analysis
+## Differential Expression Analysis
 
 We used [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html), in R environment, to find up- or down-regulated genes in the studied conditions.
 
