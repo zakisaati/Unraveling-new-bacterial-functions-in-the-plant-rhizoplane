@@ -35,7 +35,7 @@ antismash --fullhmmer --cb-general --cb-subclusters --cb-knownclusters --asf --p
 
 To look for proteins with a signal peptide we used the **SignalP** tool. We downloaded it from: https://services.healthtech.dtu.dk/cgi-bin/sw_request
 
-Again, the input for this analysis consisted on the encoded proteome (fasta amino acid file). The command used was:
+Again, the input for this analysis consisted on the [encoded proteome](Source_data/CDVBN10.faa) (fasta amino acid file). The command used was:
 
 ~~~
 $ signalp -fasta CDVBN10.faa -org gram- -format short -prefix signalp_output.faa
