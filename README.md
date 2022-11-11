@@ -14,7 +14,6 @@ This repository contains the codes used for generating the data contained in the
   - To inspect the codes and programs used to analyze RNA-Seq data go to the [RNA-Seq](./Analyses/RNA-Seq.md) section.
   - This folder also includes the [Source Data](./Analyses/Source_data) needed to run analyses.
 
-- To inspect the codes used for the generation of graphics and figures, go to the [Figures](./Figures/figures.md) section. This folder also includes the [Source Data](./Figures/Source_data) needed to create each graphic.
  
  ---
 
