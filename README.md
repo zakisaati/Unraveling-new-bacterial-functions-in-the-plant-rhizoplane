@@ -1,6 +1,6 @@
 # Revealing new bacterial functions in the plant rhizoplane
 
-This repository contains the codes used for generating the data contained in the article "*insert title*" 
+This repository contains the codes used for generating the data contained in the article "Revealing new bacterial functions in the plant rhizoplane" (Saati-Santamaría et al., under revision).
 
 <p align="center">
 
@@ -19,7 +19,7 @@ This repository contains the codes used for generating the data contained in the
 
 ### Citation
 
-Zaki Saati-Santamaría, Alejandro Jiménez-Gómez, Daniel Morais, Lihuén Iraí González-Dominici, Vojtěch Tláskal, Oldřich Benada, Li Qi, Yang Sheng, Raúl Rivas, Petr Baldrian, Paula García-Fraile. Revealing new bacterial functions in the plant rhizoplane. /Under revision/
+Zaki Saati-Santamaría, Alejandro Jiménez-Gómez, Daniel Morais, Lihuén Iraí González-Dominici, Vojtěch Tláskal, Oldřich Benada, Li Qi, Yang Sheng, Raúl Rivas, Petr Baldrian, Paula García-Fraile. Revealing new bacterial functions in the plant rhizoplane. *Under revision*
 
 
 ---
