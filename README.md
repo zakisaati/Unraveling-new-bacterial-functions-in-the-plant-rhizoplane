@@ -19,7 +19,7 @@ This repository contains the codes used for generating the data contained in the
 
 ### Citation
 
-Zaki Saati-Santamaría, Alejandro Jiménez-Gómez, Daniel Morais, Lihuén Iraí González-Dominici, Vojtěch Tláskal, Oldřich Benada, Li Qi, Yang Sheng, Raúl Rivas, Petr Baldrian, Paula García-Fraile. Revealing new bacterial functions in the plant rhizoplane. *Under revision*
+Zaki Saati-Santamaría, Lihuén Iraí González-Dominici, Alejandro Jiménez-Gómez, Daniel Morais, Vojtěch Tláskal, Oldřich Benada, Li Qi, Yang Sheng, Raúl Rivas, Petr Baldrian, Paula García-Fraile. Revealing new bacterial functions in the plant rhizoplane. *Under revision*
 
 
 ---
