@@ -13,6 +13,7 @@ This repository contains the codes used for generating the data contained in the
 
   - To inspect the codes and programs used to annotate genomes or proteomes go to the [genome annotation](./Analyses/Genome_annotation.md) section. This section details many diverse annotation steps.
   - To inspect the codes and programs used to analyze RNA-Seq data go to the [RNA-Seq](./Analyses/RNA-Seq.md) section.
+  - To inspect the scripts and steps used for metagenomic data processing and visualization (Hits per Million), refer to the [metagenomic analyses](./Analyses/metagenomic_analyses.md) section.
   - This folder also includes the [Source Data](./Analyses/Source_data) needed to run analyses.
 
  
