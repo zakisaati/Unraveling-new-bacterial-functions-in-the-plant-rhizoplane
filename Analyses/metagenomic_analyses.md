@@ -22,7 +22,7 @@ $ pigz *.faa
 A custom Bash script was created to automate the analysis across multiple SRA/ENA accessions. The script was written into a file named workflow_metagenomic_screening.sh
 
 ~~~
-$ nano workflow_metagenomas_microbiome4_varias_muestras_5.sh
+$ nano workflow_metagenomic_screening.sh
 ~~~
 
 The following code was then pasted and executed:
