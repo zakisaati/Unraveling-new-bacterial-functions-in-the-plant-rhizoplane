@@ -33,7 +33,7 @@ The following code was then pasted and executed:
 # Output header
 echo -e "SampleID\tPlantHits_85\tYafLHits_85\tPlantHits_75\tYafLHits_75\tTotalReads\tPlantHitsPerMillion_85\tYafLHitsPerMillion_85\tPlantHitsPerMillion_75\tYafLHitsPerMillion_75" > combined_results_normalized.txt
 
-# List of samples to process. Insert as many SRA accession IDs (eg. SRR30765289 SRR30765293 SRR30765313 etc) as needed.
+# List of samples to process. Insert as many SRA accession IDs (eg. SRR30765289 SRR30765293 SRR30765313 etc) as needed. These can be viewed in Table S1 in the manuscript.
 for id in SRRXXXXXXX SRRYYYYYYY
 do
   echo "Proccessing sample: $id"
