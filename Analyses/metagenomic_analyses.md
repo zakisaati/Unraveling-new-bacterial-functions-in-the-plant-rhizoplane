@@ -96,7 +96,7 @@ do
 done
 ~~~
 
-Then, to plot the results, use R:
+Then, to plot the results (Figure 3c), use R:
 
 ~~~
 > data <- read.delim("/path/to/results_normalized.txt", header = TRUE) #This file should looks like Table S1 in the manuscript.
