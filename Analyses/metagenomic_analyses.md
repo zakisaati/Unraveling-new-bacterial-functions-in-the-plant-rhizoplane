@@ -99,7 +99,7 @@ done
 Then, to plot the results, use R:
 
 ~~~
-> data <- read.delim("/path/to/results_normalized.txt", header = TRUE)
+> data <- read.delim("/path/to/results_normalized.txt", header = TRUE) #This file should looks like Table S1 in the manuscript.
 > library(tidyr)
 > library(ggplot2)
 > library(dplyr)
