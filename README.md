@@ -4,7 +4,8 @@ This repository contains the codes used for generating the data contained in the
 
 <p align="center">
 
-![Figure_page-0001](https://user-images.githubusercontent.com/50806485/200110202-c503f57f-eb3d-4c3d-83bc-51878ccb2bf5.jpg)
+![scheme](https://github.com/user-attachments/assets/e93f1bea-5aec-43b7-86d5-a0d4bb64841b)
+
 
 ---
 ## Guide
