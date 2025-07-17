@@ -1,6 +1,6 @@
-# Metagenomic screening for plant-associated genes and yafL
+# Metagenomic screening for plant-associated genes and *yafL*
 
-This section describes the methods used to screen metagenomes for homologs of plant-associated proteins and the yafL gene across multiple publicly available datasets.
+This section describes the methods used to screen metagenomes for homologs of plant-associated proteins and the *yafL* gene across multiple publicly available datasets.
 
 ## Preparation of training files and databases
 
