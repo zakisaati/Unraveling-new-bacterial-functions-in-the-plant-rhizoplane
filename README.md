@@ -1,4 +1,4 @@
-# Transcriptome-guided discovery of novel plant-associated genes in a rhizosphere Pseudomonas
+# Transcriptome-guided discovery of novel plant-associated genes in a rhizosphere *Pseudomonas*
 
 This repository contains the codes used for generating the data contained in the article "Transcriptome-guided discovery of novel plant-associated genes in a rhizosphere *Pseudomonas*" (Saati-Santamaría et al., under revision).
 
