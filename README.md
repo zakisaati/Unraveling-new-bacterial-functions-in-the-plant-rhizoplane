@@ -1,6 +1,6 @@
-# Revealing new bacterial functions in the plant rhizoplane
+# Transcriptome-guided discovery of novel plant-associated genes in a rhizosphere Pseudomonas
 
-This repository contains the codes used for generating the data contained in the article "Revealing new bacterial functions in the plant rhizoplane" (Saati-Santamaría et al., under revision).
+This repository contains the codes used for generating the data contained in the article "Transcriptome-guided discovery of novel plant-associated genes in a rhizosphere Pseudomonas" (Saati-Santamaría et al., under revision).
 
 <p align="center">
 
@@ -21,7 +21,7 @@ This repository contains the codes used for generating the data contained in the
 
 ### Citation
 
-Zaki Saati-Santamaría, Lihuén Iraí González-Dominici, Alejandro Jiménez-Gómez, Daniel Morais, Vojtěch Tláskal, Irene Frontela, Oldřich Benada, Li Qi, Yang Sheng, Raúl Rivas, Petr Baldrian, Paula García-Fraile. Revealing new bacterial functions in the plant rhizoplane. *Under revision*
+Zaki Saati-Santamaría, Lihuén Iraí González-Dominici, Alejandro Jiménez-Gómez, Daniel Morais, Vojtěch Tláskal, Irene Frontela, Oldřich Benada, Li Qi, Yang Sheng, Raúl Rivas, Petr Baldrian, Paula García-Fraile. Transcriptome-guided discovery of novel plant-associated genes in a rhizosphere Pseudomonas. *Under revision*
 
 
 ---
